@@ -106,7 +106,7 @@ class TransactionView extends Component {
                                     return item === null ? '' :
                                         <li><Typography variant="subheading"> {item.chaincode}</Typography>
                                             <ul>{item.set.map(function (x) {
-                                                return x === null ? '' : <li>key:{x.key} ,is_delete:{x.is_delete.toString()},value:{x.value}  </li>
+                                                return x === null ? '' : <li>key:{x.key} ,is_delete:{x.is_delete.toString()},value:******  </li>
                                             })}</ul>
                                             <br />
                                         </li>;
