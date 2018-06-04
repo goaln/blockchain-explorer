@@ -104,11 +104,11 @@ class Blocks extends Component {
               accessor: "txhash",
               Cell: row => (
                <ul>
-                    {row.value.map( tid =>
+                    /*{row.value.map( tid =>
                         <li style={{overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis"}}>
                              <a className="hash-hide"  onClick={() => this.handleDialogOpen(tid)} href="#" >{tid}</a>
                         </li>
-                    )}
+                    )}*/
                </ul>
               ),
               filterMethod: (filter, rows) =>
